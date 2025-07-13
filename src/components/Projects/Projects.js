@@ -3,11 +3,17 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import sarabAi from "../../Assets/Projects/sarabAi.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import movieMagic from "../../Assets/Projects/movieMagic.png";
+import cryptoTrek from "../../Assets/Projects/cryptoTrek.png";
+import ecommerce from "../../Assets/Projects/ecommerce.png";
+import stoneAgeRomeo from "../../Assets/Projects/stoneageRomeo.png";
+import globalAccess from "../../Assets/Projects/globalaccess.png";
+import geet from "../../Assets/Projects/geet.png";
 
 function Projects() {
   return (
@@ -20,46 +26,55 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
+        
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+    
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={globalAccess}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Global Access"
+              description="Developed and deployed a responsive industrial services website using Next.js and Vercel. Designed a dynamic landing page with a hero slider, smooth navigation, and mobile-friendly UI to showcase construction solutions. Focused on performance, SEO, and clean component-based architecture."
+              // ghLink="https://github.com/soumyajit4419/Chatify"
+              demoLink="https://construction-iota-three.vercel.app"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={stoneAgeRomeo}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Stone Age Romeo"
+              description="Developed and deployed a modern portfolio website using Next.js, styled with CSS and hosted on Netlify. Focused on responsive design, smooth animations, and clean component architecture to deliver an interactive and performance-optimized user experience."
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              demoLink="https://stoneageromeo.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={ecommerce}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Carterreed"
+              description="Developed a robust e-commerce platform using the MERN stack (MongoDB, Express.js, React.js, Node.js) to support
+seamless user and admin operations. Designed an intuitive admin panel for efficient inventory and order management."
+              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              demoLink="https://carterreed.netlify.app/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={cryptoTrek}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              title="CryptoTrek"
+              description="Crafted a cutting-edge Cryptocurrency Tracker App using React JS, Material UI, and Chart JS, delivering seamless
+responsiveness across all devices for an improved user experience —a performance boost of 90 percent.
+• Achieved optimal performance by seamlessly integrating real-time data fetching from cryptocurrency APIs, ensuring
+users access up-to-the-minute information on prices and market trends.
+"
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
@@ -67,24 +82,35 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={movieMagic}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Movie Magic"
+              description="Enabled genre-based navigation for a seamless exploration of curated lists of movies, series, and TV shows, enhancing content discovery and personalization.
+Highlighted trending movies, series, and TV shows to give users easy access to the latest and popular entertainment options.
+ Implemented a search teature for users to find specific movies, series, or TV shows by entering keywords, delivering quick and targeted access."
+              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              demoLink="https://64859e52ad38cc7b9e1d3bc5--chimerical-sunshine-03dad3.netlify.app/" 
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={sarabAi}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="SarabAi"
+              description="SarabAi is a sophisticated AI-powered chat application developed using React. This project leverages advanced natural language processing to deliver dynamic and interactive conversations, providing users with a seamless and intuitive experience. With SarabAi, users can engage in real-time dialogues, ask questions, and receive insightful responses, making it an invaluable tool for information retrieval, learning, and entertainment."
+              demoLink="https://sarabai.netlify.app/"       
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={geet}
+              isBlog={false}
+              title="Geet"
+              description="Built a cross-platform music streaming app using React Native and Expo, featuring real-time playback controls, search functionality, and a dynamic UI. Integrated audio playback with track navigation, favorite songs management, and persistent bottom music player. Designed with a modern dark theme and intuitive tab navigation for a smooth user experience"
+              // ghLink="https://github.com/soumyajit4419/Chatify"
+              demoLink="https://expo.dev/artifacts/eas/5PwqDBWSHzfTZS24k7BSeb.apk"
             />
           </Col>
         </Row>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+// import myImg from "../../Assets/avatar.svg";
+import sarab from "../../Assets/sarab.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,42 +20,29 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
-            </p>
+  I’m a results-driven <b className="purple">Full Stack Developer</b> with years of experience building real-world web applications, digital products, and business solutions for startups, agencies, and growing brands.
+  <br />
+  <br />
+  I specialize in crafting <b className="purple">custom websites</b>, <b className="purple">web apps</b>, and <b className="purple">dashboards</b> using modern technologies like <b className="purple">Next.js</b>, <b className="purple">React</b>, <b className="purple">Node.js</b>, and <b className="purple">MongoDB</b>.
+  <br />
+  <br />
+  Whether you need a <b className="purple">high-performance landing page</b>, a <b className="purple">robust backend API</b>, or a <b className="purple">full-scale web platform</b>, I can help bring your vision to life with clean, scalable, and maintainable code.
+  <br />
+  <br />
+  I’m comfortable owning the full development cycle—from planning and prototyping to deployment and performance optimization—using platforms like <b className="purple">Vercel</b>, <b className="purple">Netlify</b>, <b className="purple">Docker</b>, and <b className="purple">GitHub Actions</b>.
+  <br />
+  <br />
+  I focus on delivering <b className="purple">pixel-perfect UIs</b>, <b className="purple">smooth user experiences</b>, and solutions tailored to your business goals. My work spans industries like <b className="purple">e-commerce</b>, <b className="purple">SaaS</b>, <b className="purple">construction</b>, <b className="purple">portfolio sites</b>, and <b className="purple">blockchain apps</b>.
+  <br />
+ 
+  <br />
+  <i>Let’s build something impactful—on time and on budget.</i>
+</p>
+
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={sarab} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -67,7 +55,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Sarab0001"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,19 +63,10 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+            
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/1-sarabjeet"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +76,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/i_am_sarab?igsh=YWFiNjhwMmgxd2pu&utm_source=qr"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
