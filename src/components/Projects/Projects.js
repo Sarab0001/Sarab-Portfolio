@@ -58,8 +58,7 @@ function Projects() {
               imgPath={ecommerce}
               isBlog={false}
               title="Carterreed"
-              description="Developed a robust e-commerce platform using the MERN stack (MongoDB, Express.js, React.js, Node.js) to support
-seamless user and admin operations. Designed an intuitive admin panel for efficient inventory and order management."
+              description="Developed a robust e-commerce platform using the MERN stack (MongoDB, Express.js, React.js, Node.js) to support seamless user and admin operations. Designed an intuitive admin panel for efficient inventory and order management."
               // ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://carterreed.netlify.app/"              
             />
@@ -70,11 +69,7 @@ seamless user and admin operations. Designed an intuitive admin panel for effici
               imgPath={cryptoTrek}
               isBlog={false}
               title="CryptoTrek"
-              description="Crafted a cutting-edge Cryptocurrency Tracker App using React JS, Material UI, and Chart JS, delivering seamless
-responsiveness across all devices for an improved user experience —a performance boost of 90 percent.
-• Achieved optimal performance by seamlessly integrating real-time data fetching from cryptocurrency APIs, ensuring
-users access up-to-the-minute information on prices and market trends.
-"
+              description="Crafted a cutting-edge Cryptocurrency Tracker App using React JS, Material UI, and Chart JS, delivering seamless responsiveness across all devices for an improved user experience —a performance boost of 90 percent.Achieved optimal performance by seamlessly integrating real-time data fetching from cryptocurrency APIs, ensuring users access up-to-the-minute information on prices and market trends."
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
@@ -85,9 +80,7 @@ users access up-to-the-minute information on prices and market trends.
               imgPath={movieMagic}
               isBlog={false}
               title="Movie Magic"
-              description="Enabled genre-based navigation for a seamless exploration of curated lists of movies, series, and TV shows, enhancing content discovery and personalization.
-Highlighted trending movies, series, and TV shows to give users easy access to the latest and popular entertainment options.
- Implemented a search teature for users to find specific movies, series, or TV shows by entering keywords, delivering quick and targeted access."
+              description="Enabled genre-based navigation for a seamless exploration of curated lists of movies, series, and TV shows, enhancing content discovery and personalization. Highlighted trending movies, series, and TV shows to give users easy access to the latest and popular entertainment options. Implemented a search teature for users to find specific movies, series, or TV shows by entering keywords, delivering quick and targeted access."
               // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               demoLink="https://64859e52ad38cc7b9e1d3bc5--chimerical-sunshine-03dad3.netlify.app/" 
             />
