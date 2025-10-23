@@ -60,7 +60,7 @@ function Projects() {
               title="Carterreed"
               description="Developed a robust e-commerce platform using the MERN stack (MongoDB, Express.js, React.js, Node.js) to support seamless user and admin operations. Designed an intuitive admin panel for efficient inventory and order management."
               // ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://carterreed.netlify.app/"              
+              demoLink="https://gws-ecommerce.netlify.app/store1"              
             />
           </Col>
 
